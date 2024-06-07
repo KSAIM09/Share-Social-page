@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    font-family: Helvetica;
+    
+    
+    
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #2A2A2A;
+    color: #989898;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    
+    width: 75%;
+    padding: 40px 20px;
+}
+
+.navbtn{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: center;
+}
+.navbtn a{
+    text-decoration: none;
+    color: #989898;
+    font-weight: 600;
+}
+
+.search input{
+    padding: 15px 40px;
+    border-radius: 40px;
+    border: none;
+    background-color: #373737;
+    color: #989898;
+    font-size: 16px;
+    outline: none;
+}
+
+.search{
+    margin-right: 40px;
+}
+
+.content{
+    width: 75%;
+    height: 586px;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.someHead{
+    width: 73%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    gap: 40px;
+    align-items: center;
+}
+
+.left{
+    width: 60%;
+    height: 500px;
+    
+}
+
+.l-con{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.l-con img{
+    width: 100%;
+    height: 450px;
+    background-image: url(https://cdn2.unrealengine.com/egs-needforspeedunboundpalaceedition-criteriongames-editions-g2-table-00-1920x1080-30ae0285e92e.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.515) 0px -100px 36px -28px inset;
+}
+
+.l-con button{
+    height: 50px;
+    border-radius: 6px;
+    border: none;
+    background-color: #545454;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.right{
+    width: 40%;
+    height: 500px;
+    background-color: aquamarine;
+}
